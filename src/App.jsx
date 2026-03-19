@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_URL = 'https://udnh87tari.execute-api.ap-southeast-1.amazonaws.com/Dev/v2/account/register-ngo'
+const API_URL = 'https://udnh87tari.execute-api.ap-southeast-1.amazonaws.com/Production/v2/account/register-ngo'
 const API_KEY = import.meta.env.VITE_API_KEY || ''
 
 const initialFormState = {
